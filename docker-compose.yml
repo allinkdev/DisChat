@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  dischat:
+    build: .
+    cap_drop:
+      - ALL
+    restart: always
+    
