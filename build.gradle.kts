@@ -17,7 +17,7 @@ repositories {
 }
 
 dependencies {
-    implementation("net.dv8tion:JDA:5.0.0-alpha.17") {
+    implementation("net.dv8tion:JDA:5.0.0-alpha.18") {
         exclude("club.minnced")
     }
     implementation("club.minnced:discord-webhooks:0.8.2")
